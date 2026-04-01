@@ -1,0 +1,137 @@
+:root {
+    --bg: #0d1117;
+    --pane-bg: #161b22;
+    --border: #30363d;
+    --text: #c9d1d9;
+    --accent: #238636;
+    --accent-hover: #2ea043;
+    --error: #f85149;
+    --warning: #d29922;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, system-ui, sans-serif;
+    height: 100vh;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    flex: 1;
+    min-height: 0;
+}
+
+.pane {
+    display: flex;
+    flex-direction: column;
+    background: var(--pane-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.pane-header {
+    background: #010409;
+    padding: 10px 15px;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.8rem;
+    color: #8b949e;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+textarea#code-editor {
+    flex: 1;
+    background: transparent;
+    color: #e6edf3;
+    border: none;
+    padding: 20px;
+    font-family: 'Consolas', monospace;
+    font-size: 1rem;
+    resize: none;
+    outline: none;
+    line-height: 1.5;
+}
+
+.output-wrapper {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+    font-family: 'Consolas', monospace;
+    font-size: 0.9rem;
+}
+
+#output { white-space: pre-wrap; color: #8b949e; }
+.error-box { 
+    background: rgba(248, 81, 73, 0.1); 
+    border-left: 4px solid var(--error); 
+    padding: 10px; 
+    margin-top: 10px;
+    color: #ff7b72;
+}
+
+.footer-actions {
+    padding: 10px 15px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-run {
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-run:hover { background: var(--accent-hover); }
+.btn-run:disabled { background: #484f58; cursor: not-allowed; }
+
+.btn-small {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: #8b949e;
+    padding: 4px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.75rem;
+}
+
+.btn-small:hover { border-color: #8b949e; color: white; }
+
+#status { font-size: 0.75rem; font-weight: bold; padding: 2px 8px; border-radius: 4px; }
+.status-ready   { color: #8b949e; }
+.status-running { color: #58a6ff; }
+.status-allowed { color: #3fb950; }
+.status-blocked { color: #f85149; }
+.status-error   { color: #d29922; }
+
+.timing { font-size: 0.75rem; color: #8b949e; }
+.hidden { display: none; }

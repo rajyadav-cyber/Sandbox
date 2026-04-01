@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Sandbox</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🛡️ Python Sandbox</h1>
+            <button id="run-btn" class="btn-run">Run Code</button>
+        </header>
+
+        <main class="grid">
+            <section class="pane">
+                <div class="pane-header">Editor (main.py)</div>
+                <textarea id="code-editor" spellcheck="false"># Welcome to the Sandbox
+def greet(name):
+    return f"Hello, {name}!"
+
+print(greet("User"))
+print("Sum of 1-10:", sum(range(1, 11)))</textarea>
+            </section>
+
+            <section class="pane">
+                <div class="pane-header">
+                    <span>Terminal</span>
+                    <div id="status" class="status-ready">Ready</div>
+                </div>
+                <div class="output-wrapper">
+                    <pre id="output">Output will appear here...</pre>
+                    <div id="error-box" class="error-box hidden"></div>
+                </div>
+                <div class="footer-actions">
+                    <button id="clear-btn" class="btn-small">Clear</button>
+                    <span id="timing" class="timing"></span>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

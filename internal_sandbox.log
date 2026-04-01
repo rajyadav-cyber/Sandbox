@@ -1,0 +1,111 @@
+2026-03-31T20:07:27+0530 [WARNING] [SUSPICIOUS ACTIVITY] 3 blocked attempt(s) in this session. Last payload (truncated): __import__('os').system('dir')
+2026-03-31T20:07:27+0530 [WARNING] [SUSPICIOUS ACTIVITY] 4 blocked attempt(s) in this session. Last payload (truncated): s = '__import__("os")'
+print(s)
+2026-03-31T20:07:27+0530 [WARNING] [SUSPICIOUS ACTIVITY] 5 blocked attempt(s) in this session. Last payload (truncated): f = open('/etc/passwd', 'r')
+print(f.read())
+2026-03-31T20:07:27+0530 [WARNING] [SUSPICIOUS ACTIVITY] 6 blocked attempt(s) in this session. Last payload (truncated): ().__class__.__bases__[0].__subclasses__()
+2026-03-31T20:07:27+0530 [WARNING] [SUSPICIOUS ACTIVITY] 7 blocked attempt(s) in this session. Last payload (truncated): def f(): pass
+print(f.__globals__)
+2026-03-31T20:07:27+0530 [WARNING] [SUSPICIOUS ACTIVITY] 8 blocked attempt(s) in this session. Last payload (truncated): x = ().__class__
+print(x)
+2026-03-31T20:07:27+0530 [WARNING] [SUSPICIOUS ACTIVITY] 9 blocked attempt(s) in this session. Last payload (truncated): eval('1 + 1')
+2026-03-31T20:07:27+0530 [WARNING] [SUSPICIOUS ACTIVITY] 10 blocked attempt(s) in this session. Last payload (truncated): exec('print(42)')
+2026-03-31T20:07:27+0530 [WARNING] [SUSPICIOUS ACTIVITY] 11 blocked attempt(s) in this session. Last payload (truncated): getattr(list, 'append')
+2026-03-31T20:07:30+0530 [WARNING] [SUSPICIOUS ACTIVITY] 12 blocked attempt(s) in this session. Last payload (truncated): s = '__import__("os")'
+x = eval(s)
+2026-03-31T20:07:30+0530 [WARNING] [SUSPICIOUS ACTIVITY] 13 blocked attempt(s) in this session. Last payload (truncated): x = ().__class__.__bases__
+print(x)
+2026-03-31T20:14:49+0530 [WARNING] [SUSPICIOUS ACTIVITY] 3 blocked attempt(s) in this session. Last payload (truncated): __import__('os').system('dir')
+2026-03-31T20:14:49+0530 [WARNING] [SUSPICIOUS ACTIVITY] 4 blocked attempt(s) in this session. Last payload (truncated): s = '__import__("os")'
+print(s)
+2026-03-31T20:14:49+0530 [WARNING] [SUSPICIOUS ACTIVITY] 5 blocked attempt(s) in this session. Last payload (truncated): f = open('/etc/passwd', 'r')
+print(f.read())
+2026-03-31T20:14:49+0530 [WARNING] [SUSPICIOUS ACTIVITY] 6 blocked attempt(s) in this session. Last payload (truncated): ().__class__.__bases__[0].__subclasses__()
+2026-03-31T20:14:49+0530 [WARNING] [SUSPICIOUS ACTIVITY] 7 blocked attempt(s) in this session. Last payload (truncated): def f(): pass
+print(f.__globals__)
+2026-03-31T20:14:49+0530 [WARNING] [SUSPICIOUS ACTIVITY] 8 blocked attempt(s) in this session. Last payload (truncated): x = ().__class__
+print(x)
+2026-03-31T20:14:49+0530 [WARNING] [SUSPICIOUS ACTIVITY] 9 blocked attempt(s) in this session. Last payload (truncated): eval('1 + 1')
+2026-03-31T20:14:49+0530 [WARNING] [SUSPICIOUS ACTIVITY] 10 blocked attempt(s) in this session. Last payload (truncated): exec('print(42)')
+2026-03-31T20:14:49+0530 [WARNING] [SUSPICIOUS ACTIVITY] 11 blocked attempt(s) in this session. Last payload (truncated): getattr(list, 'append')
+2026-03-31T20:14:53+0530 [WARNING] [SUSPICIOUS ACTIVITY] 12 blocked attempt(s) in this session. Last payload (truncated): s = '__import__("os")'
+x = eval(s)
+2026-03-31T20:14:53+0530 [WARNING] [SUSPICIOUS ACTIVITY] 13 blocked attempt(s) in this session. Last payload (truncated): x = ().__class__.__bases__
+print(x)
+2026-03-31T21:36:49+0530 [WARNING] [SUSPICIOUS ACTIVITY] 3 blocked attempt(s) in this session. Last payload (truncated): __import__('os').system('dir')
+2026-03-31T21:36:49+0530 [WARNING] [SUSPICIOUS ACTIVITY] 4 blocked attempt(s) in this session. Last payload (truncated): s = '__import__("os")'
+print(s)
+2026-03-31T21:36:49+0530 [WARNING] [SUSPICIOUS ACTIVITY] 5 blocked attempt(s) in this session. Last payload (truncated): f = open('/etc/passwd', 'r')
+print(f.read())
+2026-03-31T21:36:49+0530 [WARNING] [SUSPICIOUS ACTIVITY] 6 blocked attempt(s) in this session. Last payload (truncated): ().__class__.__bases__[0].__subclasses__()
+2026-03-31T21:36:49+0530 [WARNING] [SUSPICIOUS ACTIVITY] 7 blocked attempt(s) in this session. Last payload (truncated): def f(): pass
+print(f.__globals__)
+2026-03-31T21:36:49+0530 [WARNING] [SUSPICIOUS ACTIVITY] 8 blocked attempt(s) in this session. Last payload (truncated): x = ().__class__
+print(x)
+2026-03-31T21:36:49+0530 [WARNING] [SUSPICIOUS ACTIVITY] 9 blocked attempt(s) in this session. Last payload (truncated): eval('1 + 1')
+2026-03-31T21:36:49+0530 [WARNING] [SUSPICIOUS ACTIVITY] 10 blocked attempt(s) in this session. Last payload (truncated): exec('print(42)')
+2026-03-31T21:36:49+0530 [WARNING] [SUSPICIOUS ACTIVITY] 11 blocked attempt(s) in this session. Last payload (truncated): getattr(list, 'append')
+2026-03-31T21:36:52+0530 [WARNING] [SUSPICIOUS ACTIVITY] 12 blocked attempt(s) in this session. Last payload (truncated): s = '__import__("os")'
+x = eval(s)
+2026-03-31T21:36:52+0530 [WARNING] [SUSPICIOUS ACTIVITY] 13 blocked attempt(s) in this session. Last payload (truncated): x = ().__class__.__bases__
+print(x)
+2026-03-31T21:37:23+0530 [WARNING] [SUSPICIOUS ACTIVITY] 3 blocked attempt(s) in this session. Last payload (truncated): __import__('os').system('dir')
+2026-03-31T21:37:23+0530 [WARNING] [SUSPICIOUS ACTIVITY] 4 blocked attempt(s) in this session. Last payload (truncated): s = '__import__("os")'
+print(s)
+2026-03-31T21:37:23+0530 [WARNING] [SUSPICIOUS ACTIVITY] 5 blocked attempt(s) in this session. Last payload (truncated): f = open('/etc/passwd', 'r')
+print(f.read())
+2026-03-31T21:37:23+0530 [WARNING] [SUSPICIOUS ACTIVITY] 6 blocked attempt(s) in this session. Last payload (truncated): ().__class__.__bases__[0].__subclasses__()
+2026-03-31T21:37:23+0530 [WARNING] [SUSPICIOUS ACTIVITY] 7 blocked attempt(s) in this session. Last payload (truncated): def f(): pass
+print(f.__globals__)
+2026-03-31T21:37:23+0530 [WARNING] [SUSPICIOUS ACTIVITY] 8 blocked attempt(s) in this session. Last payload (truncated): x = ().__class__
+print(x)
+2026-03-31T21:37:23+0530 [WARNING] [SUSPICIOUS ACTIVITY] 9 blocked attempt(s) in this session. Last payload (truncated): eval('1 + 1')
+2026-03-31T21:37:23+0530 [WARNING] [SUSPICIOUS ACTIVITY] 10 blocked attempt(s) in this session. Last payload (truncated): exec('print(42)')
+2026-03-31T21:37:23+0530 [WARNING] [SUSPICIOUS ACTIVITY] 11 blocked attempt(s) in this session. Last payload (truncated): getattr(list, 'append')
+2026-03-31T21:37:26+0530 [WARNING] [SUSPICIOUS ACTIVITY] 12 blocked attempt(s) in this session. Last payload (truncated): s = '__import__("os")'
+x = eval(s)
+2026-03-31T21:37:27+0530 [WARNING] [SUSPICIOUS ACTIVITY] 13 blocked attempt(s) in this session. Last payload (truncated): x = ().__class__.__bases__
+print(x)
+2026-03-31T21:47:03+0530 [WARNING] [SUSPICIOUS ACTIVITY] 3 blocked attempt(s) in this session. Last payload (truncated): __import__('os').system('dir')
+2026-03-31T21:47:03+0530 [WARNING] [SUSPICIOUS ACTIVITY] 4 blocked attempt(s) in this session. Last payload (truncated): s = '__import__("os")'
+print(s)
+2026-03-31T21:47:03+0530 [WARNING] [SUSPICIOUS ACTIVITY] 5 blocked attempt(s) in this session. Last payload (truncated): f = open('/etc/passwd', 'r')
+print(f.read())
+2026-03-31T21:47:03+0530 [WARNING] [SUSPICIOUS ACTIVITY] 6 blocked attempt(s) in this session. Last payload (truncated): ().__class__.__bases__[0].__subclasses__()
+2026-03-31T21:47:03+0530 [WARNING] [SUSPICIOUS ACTIVITY] 7 blocked attempt(s) in this session. Last payload (truncated): def f(): pass
+print(f.__globals__)
+2026-03-31T21:47:03+0530 [WARNING] [SUSPICIOUS ACTIVITY] 8 blocked attempt(s) in this session. Last payload (truncated): x = ().__class__
+print(x)
+2026-03-31T21:47:03+0530 [WARNING] [SUSPICIOUS ACTIVITY] 9 blocked attempt(s) in this session. Last payload (truncated): eval('1 + 1')
+2026-03-31T21:47:03+0530 [WARNING] [SUSPICIOUS ACTIVITY] 10 blocked attempt(s) in this session. Last payload (truncated): exec('print(42)')
+2026-03-31T21:47:03+0530 [WARNING] [SUSPICIOUS ACTIVITY] 11 blocked attempt(s) in this session. Last payload (truncated): getattr(list, 'append')
+2026-03-31T21:47:06+0530 [WARNING] [SUSPICIOUS ACTIVITY] 12 blocked attempt(s) in this session. Last payload (truncated): s = '__import__("os")'
+x = eval(s)
+2026-03-31T21:47:06+0530 [WARNING] [SUSPICIOUS ACTIVITY] 13 blocked attempt(s) in this session. Last payload (truncated): x = ().__class__.__bases__
+print(x)
+2026-04-01T14:44:41+0530 [WARNING] [SUSPICIOUS ACTIVITY] 3 blocked attempt(s) in this session. Last payload (truncated): __import__('os').system('dir')
+2026-04-01T14:44:41+0530 [WARNING] [SUSPICIOUS ACTIVITY] 4 blocked attempt(s) in this session. Last payload (truncated): s = '__import__("os")'
+print(s)
+2026-04-01T14:44:41+0530 [WARNING] [SUSPICIOUS ACTIVITY] 5 blocked attempt(s) in this session. Last payload (truncated): f = open('/etc/passwd', 'r')
+print(f.read())
+2026-04-01T14:44:41+0530 [WARNING] [SUSPICIOUS ACTIVITY] 6 blocked attempt(s) in this session. Last payload (truncated): ().__class__.__bases__[0].__subclasses__()
+2026-04-01T14:44:41+0530 [WARNING] [SUSPICIOUS ACTIVITY] 7 blocked attempt(s) in this session. Last payload (truncated): def f(): pass
+print(f.__globals__)
+2026-04-01T14:44:41+0530 [WARNING] [SUSPICIOUS ACTIVITY] 8 blocked attempt(s) in this session. Last payload (truncated): x = ().__class__
+print(x)
+2026-04-01T14:44:41+0530 [WARNING] [SUSPICIOUS ACTIVITY] 9 blocked attempt(s) in this session. Last payload (truncated): eval('1 + 1')
+2026-04-01T14:44:41+0530 [WARNING] [SUSPICIOUS ACTIVITY] 10 blocked attempt(s) in this session. Last payload (truncated): exec('print(42)')
+2026-04-01T14:44:41+0530 [WARNING] [SUSPICIOUS ACTIVITY] 11 blocked attempt(s) in this session. Last payload (truncated): getattr(list, 'append')
+2026-04-01T14:44:44+0530 [WARNING] [SUSPICIOUS ACTIVITY] 12 blocked attempt(s) in this session. Last payload (truncated): s = '__import__("os")'
+x = eval(s)
+2026-04-01T14:44:45+0530 [WARNING] [SUSPICIOUS ACTIVITY] 13 blocked attempt(s) in this session. Last payload (truncated): x = ().__class__.__bases__
+print(x)
+2026-04-01T14:59:13+0530 [WARNING] [SUSPICIOUS ACTIVITY] 3 blocked attempt(s) in this session. Last payload (truncated): open("test.txt", "w")
+2026-04-01T14:59:24+0530 [WARNING] [SUSPICIOUS ACTIVITY] 4 blocked attempt(s) in this session. Last payload (truncated): eval("2+2")
+2026-04-01T15:01:02+0530 [WARNING] [SUSPICIOUS ACTIVITY] 5 blocked attempt(s) in this session. Last payload (truncated): if (response.reason.includes("timeout")) {
+    alert("⚠️ Execution stopped: Possible infinite loop detected!");
+}
+2026-04-01T15:04:36+0530 [WARNING] [SUSPICIOUS ACTIVITY] 10 blocked attempt(s) in this session. Last payload (truncated): import os
+2026-04-01T15:04:36+0530 [WARNING] [SUSPICIOUS ACTIVITY] 11 blocked attempt(s) in this session. Last payload (truncated): import os
+2026-04-01T15:04:36+0530 [WARNING] [SUSPICIOUS ACTIVITY] 10 blocked attempt(s) in this session. Last payload (truncated): import os
+2026-04-01T15:04:36+0530 [WARNING] [SUSPICIOUS ACTIVITY] 11 blocked attempt(s) in this session. Last payload (truncated): import os
